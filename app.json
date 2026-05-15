@@ -3,30 +3,14 @@
     "name": "NetPrime",
     "slug": "NetPrime",
     "version": "1.2.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "netprime",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#000000"
-      },
-      "edgeToEdgeEnabled": true,
-      "package": "com.cody669.Uott"
-    },
     "web": {
       "bundler": "webpack",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "static"
     },
     "plugins": [
       "expo-router",
-
       [
         "expo-splash-screen",
         {
@@ -41,7 +25,6 @@
       "typedRoutes": true
     },
     "extra": {
-      "router": {},
       "eas": {
         "projectId": "2f1092b4-e5f1-4c69-b021-95be2294813f"
       }
